@@ -1,0 +1,25 @@
+{
+  "home": "Home",
+  "about": "About",
+  "portfolio": "Portfolio",
+  "location": "Location",
+  "email": "Email",
+  "phone": "Phone",
+  "aboutTitle": "About me",
+  "paragraph1": "I’m a junior front-end developer passionate about creating clean, responsive, and user-friendly web applications. I work with HTML, CSS, JavaScript, and React to build modern and interactive projects. I enjoy coding, learn quickly, and always strive to improve my skills. I’m also exploring TypeScript and modern tools that help make applications scalable and maintainable.",
+  "paragraph2": "My main focus is on writing clear code and creating interfaces that provide a smooth experience for users. I’m motivated to keep growing as a developer and contributing to meaningful projects.",
+  "skillsTitle": "Skills",
+  "downloadCV": "Download CV",
+  "greeting": "Hi, I’m <span class='name'>Vika Kushko 👋</span>",
+  "role": "Junior <span class='highlight'>Frontend Developer</span>",
+  "descriptionText": "I build clean, responsive, and user-friendly web applications using ",
+  "technologies": "JavaScript, React, TypeScript",
+  "portfolioTitle": "My <span class='highlight'>portfolio</span>",
+  "viewProject": "View Project",
+  "projects": {
+    "otfk": {
+      "title": "OTFK ONTU",
+      "description": "The Methodical Cabinet website is a project designed to support the educational process by providing teachers with a platform to collaborate, share resources, and exchange knowledge effectively."
+    }
+  }
+}

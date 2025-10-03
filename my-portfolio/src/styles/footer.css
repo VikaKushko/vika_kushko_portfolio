@@ -1,0 +1,63 @@
+.footer {
+    text-align: center;
+    background-color: #222;
+    color: #fff;
+    padding: 30px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Информация */
+.footer-info p {
+    margin: 5px 0;
+}
+
+.footer-info a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-info a:hover {
+    text-decoration: underline;
+}
+
+/* Соцсети */
+.footer-social a {
+    margin: 0 10px;
+    color: #fff;
+    transition: transform 0.2s, color 0.2s;
+}
+
+.footer-social a:hover {
+    color: #00aced;
+    transform: scale(1.2);
+}
+
+/* ====== АДАПТИВ ====== */
+@media (max-width: 768px) {
+    .footer {
+        padding: 30px 20px;
+        text-align: center;
+    }
+
+    .footer-social {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .footer-social a {
+        margin: 5px;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer {
+        padding: 20px 15px;
+        gap: 10px;
+    }
+
+    .footer-info p {
+        font-size: 0.9rem;
+    }
+}

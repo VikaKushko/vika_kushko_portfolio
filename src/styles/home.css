@@ -1,0 +1,130 @@
+/* ==== ОБЩИЙ БЛОК ==== */
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 85vh;
+    padding: 20px;
+    background-image: url("../assets/background.jpeg");
+    background-repeat: no-repeat;      /* не повторять изображение */
+    background-position: center;       /* расположить по центру */
+    background-size: cover;
+}
+
+.home-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 20px;
+    gap: 40px;
+}
+
+/* ====== ТЕКСТ ====== */
+.text {
+    flex: 1;
+    opacity: 0;
+    transform: translateX(-50px);
+    animation: fadeInLeft 1s ease forwards;
+}
+
+.text h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: #e8e8e8;
+}
+
+.text .name {
+    color: var(--color-accent);
+    font-weight: 700;
+}
+
+.role {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    font-weight: 600;
+    color: #ccc;
+}
+
+.highlight {
+    background: var(--color-bg-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.description {
+    font-size: 1.2rem;
+    color: #e8e8e8;
+    line-height: 1.6;
+    max-width: 600px;
+}
+
+
+.tech {
+    font-weight: 600;
+    color: #e8e8e8;
+    margin: 0 4px;
+    transition: color 0.3s ease;
+}
+
+.tech:hover {
+    color: var(--color-accent);
+}
+
+/* анимация появления слева */
+@keyframes fadeInLeft {
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* ====== АДАПТИВ ====== */
+@media (max-width: 1024px) {
+    .text h1 {
+        font-size: 2.5rem;
+    }
+    .role {
+        font-size: 1.5rem;
+    }
+    .description {
+        font-size: 1rem;
+    }
+    .photo img {
+        width: 280px;
+    }
+}
+
+@media (max-width: 768px) {
+    .home-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .text {
+        transform: translateY(-30px);
+        animation: fadeInUp 1s ease forwards;
+    }
+
+    .text h1 {
+        font-size: 2rem;
+    }
+
+    .role {
+        font-size: 1.2rem;
+    }
+
+    .photo img {
+        width: 220px;
+        transform: rotate(0deg);
+    }
+}
+
+/* анимация появления снизу (для мобилки) */
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

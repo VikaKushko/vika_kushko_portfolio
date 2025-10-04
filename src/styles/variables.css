@@ -1,0 +1,29 @@
+:root {
+    /* Тёмная тема */
+    --color-bg: #181818;          /* фон */
+    --color-text: #e8e8e8;        /* текст */
+    --color-accent: #e63946;      /* акцент */
+    --color-card: #242424;        /* карточки */
+    --color-border: #333333;      /* границы */
+    --color-link: #5aa0ff;        /* ссылки */
+    --color-link-hover: #3d85ff;  /* hover ссылки */
+    --color-button-theme: transparent;
+    --color-bg-header: rgba(24, 24, 24, 0.95);
+    --color-bg-gradient: linear-gradient(90deg, #ff4d6d, #ff8c42);
+
+    --font-main: 'Arial', sans-serif;
+}
+
+[data-theme="light"] {
+    /* Светлая тема */
+    --color-bg: #fdfaf6;          /* тёплый кремовый фон */
+    --color-text: #2a2a2a;        /* мягкий тёмно-серый текст */
+    --color-accent: #e63946;      /* красный акцент */
+    --color-card: #ffffff;        /* карточки */
+    --color-border: #e6e6e6;      /* светлые границы */
+    --color-link: #1e90ff;        /* синий */
+    --color-link-hover: #0d6efd;  /* hover */
+    --color-button-theme: transparent;
+    --color-bg-header: rgba(255, 250, 245, 0.95); /* мягкий фон хедера */
+    --color-bg-gradient: linear-gradient(90deg, #ff6b81, #ffb347); /* градиент для текста/акцентов */
+}

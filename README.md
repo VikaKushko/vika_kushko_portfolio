@@ -13,3 +13,4 @@ Minimal React project using TypeScript and Vite with ESLint configured.
 ```bash
 npm install
 npm run dev
+# vika_kushko_portfolio

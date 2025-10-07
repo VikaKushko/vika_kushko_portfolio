@@ -1,10 +1,10 @@
 import { useState, useEffect } from "react";
-import Header from "./components/Header";
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Portfolio from "./pages/Portfolio";
-import Footer from "./components/Footer";
-import CustomCursor from "./components/CustomCursor";
+import Header from "./components/Header.js";
+import Home from "./pages/Home.js";
+import About from "./pages/About.js";
+import Portfolio from "./pages/Portfolio.js";
+import Footer from "./components/Footer.js";
+import CustomCursor from "./components/CustomCursor.js";
 import "./styles/variables.css"; // чтобы подтянулись :root и [data-theme]
 
 function App() {

@@ -1,5 +1,6 @@
 import "../styles/portfolio.css";
 import OtfkImage from "../assets/otfk.png";
+import TodoList from "../assets/TodoList.png";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 
@@ -15,13 +16,13 @@ function Portfolio() {
             key: "otfk",
             image: OtfkImage,
             link: "https://github.com/VikaKushko/otfk_method_cabinet"
+        },
+        {
+            key: "todoList",
+            image: TodoList,
+            link: "https://github.com/VikaKushko/vika-kushko-todo-list"
         }
-        // {
-        //     title: "To-Do List",
-        //     description: "A task manager with add/remove/edit features (React + LocalStorage).",
-        //     image: "/images/todo.png",
-        //     link: "https://github.com/vicktoriakushko/todo-app"
-        // },
+
         // {
         //     title: "Suppliers Dashboard",
         //     description: "Admin panel built with React-Admin and REST API integration.",

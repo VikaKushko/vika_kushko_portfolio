@@ -20,6 +20,10 @@
     "otfk": {
       "title": "OTFK ONTU",
       "description": "The Methodical Cabinet website is a project designed to support the educational process by providing teachers with a platform to collaborate, share resources, and exchange knowledge effectively."
+    },
+    "todoList": {
+      "title": "To-Do List",
+      "description": "A simple and elegant task manager that helps you organize your daily plans. Features: add, edit, delete tasks, choose a date from the calendar, and switch between light and dark themes. All tasks are saved in LocalStorage — nothing gets lost after reloading the page."
     }
   }
 }
